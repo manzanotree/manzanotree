@@ -5,7 +5,7 @@ import Home from '../components/home'
 const IndexPage = () => {
   return (
     <div>
-      <Layout pageTitle="Home Page">
+      <Layout pageTitle="Home">
         <Home />
       </Layout>
     </div>

@@ -1,10 +1,8 @@
 .container {
-  /* border: 4px solid black; */
   height: 100%;
 }
 
 .nav-wrapper {
-  /* border: 2px solid rgb(18, 224, 18); */
   position: sticky;
   top: 0;
   padding: 1em;
@@ -24,13 +22,11 @@
 } 
 
 .content {
-  /* border: 2px solid rgb(1, 172, 206); */
   padding-left: 6em;
   padding-right: 6em;
 }
 
 .footer {
-  /* border: 2px solid rgb(243, 112, 134); */
   padding: 1em;
   position: sticky;
   top: 100vh;
