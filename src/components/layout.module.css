@@ -1,0 +1,35 @@
+.container {
+  height: 100%;
+}
+
+.nav-wrapper {
+  position: sticky;
+  top: 0;
+  padding: 1em;
+}
+
+.nav {
+  padding: 0;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  justify-items: center;
+  list-style-type: none;
+}
+
+.nav-item {
+  text-decoration: none;
+} 
+
+.content {
+  padding-left: 6em;
+  padding-right: 6em;
+}
+
+.footer {
+  padding: 1em;
+  position: sticky;
+  top: 100vh;
+  display: grid;
+  justify-content: center;
+}

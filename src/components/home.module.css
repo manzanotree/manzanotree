@@ -1,0 +1,15 @@
+.container {
+  display: grid;
+  grid-template-rows: 3fr;
+}
+
+.item {
+}
+
+.blurb {
+}
+
+.social {
+  display: grid;
+  justify-content: center;
+}
