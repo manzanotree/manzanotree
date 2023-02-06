@@ -1,0 +1,14 @@
+.container {
+  height: 80vh;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+}
+
+.avatarContainer {
+  object-fit: cover;
+  border-radius: 50%;
+  width: 20em;
+  height: 20em;
+}

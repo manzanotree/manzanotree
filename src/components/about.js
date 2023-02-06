@@ -1,0 +1,21 @@
+import * as React from 'react'
+import { container, avatarContainer } from './about.module.css'
+import avatar from '../images/avatar.jpg'
+
+const About = () => {
+  return (
+    <div className={container}>
+      <img src={avatar} className={avatarContainer} />
+      <p>Mike Manzano</p>
+      <p>Software engineer & hot chocolate aficionado</p>
+      
+      <p>
+        Hello, I'm Mike Manzano and I like to create things. I write code for a living, 
+        but I've dabbled as a DJ, rugby player, and motorcyclist. Bass guitar is up next. 
+        I enjoy traveling to new places and I hope to get into mountain climbing soon. 
+      </p>
+    </div>
+  )
+}
+
+export default About

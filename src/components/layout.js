@@ -17,7 +17,6 @@ const Layout = ({ pageTitle, children }) => {
         <ul className={nav}>
           <li><Link className={navItem} to="/">manzanotree</Link></li>
           <li><Link className={navItem} to="/work">work</Link></li>
-          <li><Link className={navItem} to="/thoughts">thoughts</Link></li>
           <li><Link className={navItem} to="/about">about</Link></li>
           <li><Link className={navItem} to="/contact">contact</Link></li>
         </ul>
