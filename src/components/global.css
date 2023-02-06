@@ -2,3 +2,7 @@ html, body, #___gatsby, #gatsby-focus-wrapper, #gatsby-focus-wrapper > div {
   height: 100vh;
   margin: 0px;
 }
+
+a:link, a:visited, a:hover, a:active {
+ text-decoration: none;
+}
