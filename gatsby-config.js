@@ -4,14 +4,21 @@ module.exports = {
     siteUrl: `https://www.yourdomain.tld`
   },
   plugins: [
-    "gatsby-plugin-mdx",
+    'gatsby-plugin-mdx',
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        "name": "pages",
-        "path": "./src/pages/"
+        'name': 'work',
+        'path': './src/work',
+      }
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        'name': 'pages',
+        'path': './src/pages/',
       },
-      __key: "pages"
+      __key: 'pages',
     },
   ]
 };

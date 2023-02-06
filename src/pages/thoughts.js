@@ -3,11 +3,9 @@ import Layout from '../components/layout'
 
 const ThoughtsPage = () => {
   return (
-    <div>
-      <Layout pageTitle="Thoughts">
-        <p>Thoughts Component Placeholder</p>
-      </Layout>
-    </div>
+    <Layout pageTitle="Thoughts">
+      <p>Thoughts Component Placeholder</p>
+    </Layout>
   )
 }
 

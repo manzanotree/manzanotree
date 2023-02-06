@@ -4,11 +4,9 @@ import Home from '../components/home'
 
 const IndexPage = () => {
   return (
-    <div>
-      <Layout pageTitle="Home">
-        <Home />
-      </Layout>
-    </div>
+    <Layout pageTitle="Home">
+      <Home />
+    </Layout>
   )
 }
 
