@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: `/manzanotree`,
   siteMetadata: {
     title: `manzanotree`,
     siteUrl: `https://www.manzanotree.com`
