@@ -11,7 +11,7 @@
 .nav {
   padding: 0;
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr 1fr;
+  grid-template-columns: 2fr 1fr 1fr;
   justify-items: center;
   list-style-type: none;
 }
