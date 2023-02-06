@@ -3,6 +3,7 @@ module.exports = {
     title: `manzanotree`,
     siteUrl: `https://www.manzanotree.com`
   },
+  pathPrefix: `/manzanotree`,
   plugins: [
     `gatsby-plugin-mdx`,
     {
