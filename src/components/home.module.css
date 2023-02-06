@@ -1,6 +1,9 @@
 .container {
   display: grid;
   grid-template-rows: 3fr;
+  height: 50vh;
+  justify-items: center;
+  align-items: center;
 }
 
 .item {
@@ -10,6 +13,4 @@
 }
 
 .social {
-  display: grid;
-  justify-content: center;
 }

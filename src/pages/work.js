@@ -4,11 +4,9 @@ import Work from '../components/work'
 
 const WorkPage = () => {
   return (
-    <div>
-      <Layout pageTitle="Work">
-        <Work />
-      </Layout>
-    </div>
+    <Layout pageTitle="Work">
+      <Work />
+    </Layout>
   )
 }
 

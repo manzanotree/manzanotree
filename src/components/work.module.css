@@ -1,0 +1,16 @@
+.container {
+  height: 50vh;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+.list {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 0;
+}
+
+.item {
+}
