@@ -12,3 +12,13 @@
   width: 20em;
   height: 20em;
 }
+
+.name {
+  font-size: 1.2em;
+}
+
+.caption {
+  font-size: .8em;
+  font-style: italic;
+  margin-top: -1em;
+}
