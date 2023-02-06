@@ -11,17 +11,22 @@
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "deploy": "gatsby build && gh-pages -d public -b main"
   },
   "dependencies": {
     "@mdx-js/mdx": "^2.2.1",
     "@mdx-js/react": "^1.6.22",
     "gatsby": "^5.5.0",
     "gatsby-omni-font-loader": "^2.0.2",
+    "gatsby-plugin-manifest": "^5.5.0",
     "gatsby-plugin-mdx": "^5.5.0",
     "gatsby-source-filesystem": "^5.5.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-helmet": "^6.1.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
