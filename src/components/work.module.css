@@ -13,4 +13,9 @@
 }
 
 .item {
+  font-size: 1.2em;
+}
+
+.item > * {
+  color: black;
 }

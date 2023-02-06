@@ -18,11 +18,14 @@
 
 .nav-item {
   text-decoration: none;
+  color: black;
+  font-size: 1.6em;
 } 
 
 .content {
   padding-left: 6em;
   padding-right: 6em;
+  font-size: 1.2em;
 }
 
 .footer {

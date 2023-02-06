@@ -1,6 +1,9 @@
 html, body, #___gatsby, #gatsby-focus-wrapper, #gatsby-focus-wrapper > div {
   height: 100vh;
   margin: 0px;
+  background-color: #fffff2;
+  color: black;
+  font-family: "Unna"
 }
 
 a:link, a:visited, a:hover, a:active {

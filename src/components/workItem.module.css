@@ -5,17 +5,13 @@
 }
 
 .title {
-
-}
-
-.date {
-
-}
-
-.description {
-
+  font-size: 1.2em;
 }
 
 .canonical {
+  font-size: .8em;
+}
 
+.canonical > a {
+  color: black;
 }
