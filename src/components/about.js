@@ -14,6 +14,7 @@ const About = () => {
         but I've dabbled as a DJ, rugby player, and motorcyclist. Bass guitar is up next. 
         I enjoy traveling to new places and I hope to get into mountain climbing soon. 
       </p>
+
     </div>
   )
 }
