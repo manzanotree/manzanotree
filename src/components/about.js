@@ -16,7 +16,7 @@ const About = () => {
       </p>
 
       <p>
-        This was built using Gatsby.
+        This was built using Gatsby!
       </p>
     </div>
   )
