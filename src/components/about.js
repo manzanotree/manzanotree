@@ -1,11 +1,21 @@
 import * as React from 'react'
-import { container, avatarContainer, name, caption } from './about.module.css'
-import avatar from '../images/avatar.jpg'
+import { container, name, caption } from './about.module.css'
+import { StaticImage } from 'gatsby-plugin-image'
 
 const About = () => {
   return (
     <div className={container}>
-      <img src={avatar} className={avatarContainer} alt="Headshot of Mike Manzano" />
+      <StaticImage 
+        src="../images/avatar.jpg" 
+        alt="Handsome headshot of Mike Manzano" 
+        placeholder="blurred"
+        style={{ 
+          objectFit: 'cover',
+          borderRadius: '50%',
+          height: '20em',
+          width: '20em',
+        }}
+      />
       <p className={name}>Mike Manzano</p>
       <p className={caption}>Software engineer & hot chocolate aficionado</p>
       

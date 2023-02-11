@@ -6,13 +6,6 @@
   align-content: center;
 }
 
-.avatarContainer {
-  object-fit: cover;
-  border-radius: 50%;
-  width: 20em;
-  height: 20em;
-}
-
 .name {
   font-size: 1.2em;
 }
