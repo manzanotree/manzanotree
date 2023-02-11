@@ -3,6 +3,7 @@
 }
 
 .nav-wrapper {
+  z-index: 2;
   position: sticky;
   top: 0;
   padding: 1em;
@@ -26,6 +27,7 @@
 } 
 
 .content {
+  z-index: 0;
   padding-left: 14em;
   padding-right: 14em;
   font-size: 1.2em;
