@@ -73,8 +73,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-gatsby-build-
       - name: Install dependencies
-        # --legacy-peer-deps because @mdx-js/react@"^1.6.22" doesn't support react 18
-        run: ${{ steps.detect-package-manager.outputs.manager }} install --legacy-peer-deps
+        run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
       - name: Build with Gatsby
         env:
           PREFIX_PATHS: 'true'
