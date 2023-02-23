@@ -10,7 +10,7 @@ const Home = () => {
       <p>
         Hi, I'm Mike Manzano and welcome to my site! 
         I'm a software engineer, dabbler, and junior 
-        adventurer based in New York City. Here you 
+        explorer based in New York City. Here you 
         can find stuff that I'm working on.
       </p>
       <p className={social}>
