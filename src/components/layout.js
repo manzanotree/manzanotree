@@ -6,6 +6,7 @@ import {
   navWrapper,
   nav,
   navItem,
+  contentWrapper,
   content,
   footer
 } from './layout.module.css'
@@ -20,7 +21,9 @@ const Layout = ({ pageTitle, children }) => {
           <li><Link className={navItem} to="/about">about</Link></li>
         </ul>
       </nav>
-      <div className={content}>{children}</div>
+      <div className={contentWrapper}>
+        <div className={content}>{children}</div>
+      </div>
       <footer className={footer}>
         Copyright {new Date().getFullYear()}
       </footer>
