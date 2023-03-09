@@ -12,8 +12,8 @@ const About = () => {
         style={{ 
           objectFit: 'cover',
           borderRadius: '50%',
-          height: '20em',
-          width: '20em',
+          height: '15em',
+          width: '15em',
         }}
       />
       <p className={name}>Mike Manzano</p>
