@@ -5,7 +5,7 @@ import { container, list, item } from './work.module.css'
 const Work = () => {
   const data = useStaticQuery(graphql`
     query {
-      allMdx(sort: { frontmatter: { date: DESC } }) {
+      allMdx(sort: { frontmatter: { slug: ASC } }) {
         nodes {
           frontmatter {
             date(formatString: "MMMM D, YYYY")
