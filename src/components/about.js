@@ -24,6 +24,10 @@ const About = () => {
         but I've dabbled as a DJ, rugby player, and motorcyclist. Bass guitar is up next. 
         I enjoy traveling to new places and I hope to get into mountain climbing soon. 
       </p>
+
+      <p>A bit more about this site.</p>
+
+      <p>This is a Gatsby-powered React app hosted on GitHub Pages. It's super easy to maintain and minimalist by design.</p>
     </div>
   )
 }
