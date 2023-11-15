@@ -30,5 +30,8 @@
   },
   "devDependencies": {
     "gh-pages": "^5.0.0"
+  },
+  "overrides:": {
+    "axios": "^1.6.0"
   }
 }
