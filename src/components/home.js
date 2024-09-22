@@ -9,9 +9,9 @@ const Home = () => {
     <div className={container}>
       <p>
         Hi, I'm Mike Manzano and welcome to my site! 
-        I'm a software engineer, dabbler, and junior 
-        explorer based in New York City. Here you 
-        can find stuff that I'm working on.
+        I'm a software engineer, dabbler, and explorer 
+        from New York currently based in London. 
+        Here you can find stuff that I'm working on.
       </p>
       <p className={social}>
         <a href="https://github.com/manzanotree" target="_blank">github</a>

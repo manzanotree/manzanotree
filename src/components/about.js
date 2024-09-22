@@ -20,14 +20,16 @@ const About = () => {
       <p className={caption}>Software engineer & hot chocolate aficionado</p>
       
       <p>
-        Hi, I'm Mike Manzano and I like to create things. I write code for a living, 
-        but I've dabbled as a DJ, rugby player, and motorcyclist. Bass guitar is up next. 
-        I enjoy traveling to new places and I hope to get into mountain climbing soon. 
+        I like to create things, so I'm fortunate to write code for a living. 
+        I've dabbled as a rugby player and motorcyclist, I've gone in and out 
+        of DJing over the past 15 years, and have recently taken up bass guitar. 
+        Food is a close second to music -- I respect the Michelin stuff, but 
+        a solid NY slice will always be close to my heart.
       </p>
 
       <p>A bit more about this site.</p>
 
-      <p>This is a Gatsby-powered React app hosted on GitHub Pages. It's super easy to maintain and minimalist by design.</p>
+      <p>This is a Gatsby-powered React app hosted on GitHub Pages. It's easy to maintain and minimalist by design.</p>
     </div>
   )
 }
