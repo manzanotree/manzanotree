@@ -29,7 +29,7 @@ const About = () => {
 
       <p>A bit more about this site.</p>
 
-      <p>This is a Gatsby-powered React app hosted on GitHub Pages. It's super easy to maintain and minimalist by design.</p>
+      <p>This is a Gatsby-powered React app hosted on GitHub Pages. It's easy to maintain and minimalist by design.</p>
     </div>
   )
 }
