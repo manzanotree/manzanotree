@@ -23,8 +23,8 @@ const About = () => {
         I like to create things, so I'm fortunate to write code for a living. 
         I've dabbled as a rugby player and motorcyclist, I've gone in and out 
         of DJing over the past 15 years, and have recently taken up bass guitar. 
-        Food is a close second to music -- while I respect the Michelin stuff,  
-        a solid NY slice will always be close to my heart.
+        Food is a close second to music -- I now dedicate some of my 
+        spare time to replicating my ideal NY pizza slice.
       </p>
 
       <p>A bit more about this site.</p>
