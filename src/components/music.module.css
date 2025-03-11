@@ -1,0 +1,17 @@
+.container {
+  padding: 2em;
+  grid-column: 1 / 4;
+}
+
+.playlist {
+  list-style-type: none;
+  padding-inline-start: 0;
+}
+
+.track {
+  margin-bottom: 1em;
+}
+
+.tracks iframe {
+  border: 0;
+}
