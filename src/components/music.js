@@ -10,7 +10,7 @@ const Music = () => {
 
   useEffect(() => {
     const getTracks = async () => {
-      const response = await fetch(`https://api-v2.hearthis.at/kuya-mustard?type=tracks`)
+      const response = await fetch(`https://api-v2.hearthis.at/kuya-manzo?type=tracks`)
       const data = await response.json()
       setTracks(data)
     }
