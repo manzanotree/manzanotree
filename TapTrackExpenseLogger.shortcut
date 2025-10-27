@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>WFWorkflowClientVersion</key>
+	<string>2000</string>
+	<key>WFWorkflowClientRelease</key>
+	<string>iOS</string>
+	<key>WFWorkflowTypes</key>
+	<array>
+		<string>NCWidget</string>
+		<string>WatchKit</string>
+		<string>ActionExtension</string>
+	</array>
+	<key>WFWorkflowInputContentItemClasses</key>
+	<array>
+		<string>WFWalletTransactionContentItem</string>
+	</array>
+	<key>WFWorkflowActions</key>
+	<array>
+		<!-- Step 1: Build Dictionary -->
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.dictionary</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFItems</key>
+				<array>
+					<dict>
+						<key>WFKey</key><string>merchant</string>
+						<key>WFValue</key><string>Shortcut Input.Merchant</string>
+					</dict>
+					<dict>
+						<key>WFKey</key><string>amount</string>
+						<key>WFValue</key><string>Shortcut Input.Amount</string>
+					</dict>
+					<dict>
+						<key>WFKey</key><string>cardOrPass</string>
+						<key>WFValue</key><string>Shortcut Input.Account</string>
+					</dict>
+					<dict>
+						<key>WFKey</key><string>date</string>
+						<key>WFValue</key><string>Shortcut Input.Date</string>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+
+		<!-- Step 2: Make JSON Text -->
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.text</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFTextActionText</key>
+				<string>{
+  "merchant": "%Variable:Dictionary.merchant%",
+  "amount": "%Variable:Dictionary.amount%",
+  "cardOrPass": "%Variable:Dictionary.cardOrPass%",
+  "date": "%Variable:Dictionary.date%"
+}</string>
+			</dict>
+		</dict>
+
+		<!-- Step 3: Run App Intent -->
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.runappintent</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFAppIntentAppIdentifier</key>
+				<string>com.manzanotree.taptrack</string>
+				<key>WFAppIntentName</key>
+				<string>LogExpenseIntent</string>
+				<key>WFAppIntentParameters</key>
+				<dict>
+					<key>transactionJSON</key>
+					<string>%Variable:Text%</string>
+				</dict>
+			</dict>
+		</dict>
+	</array>
+
+	<key>WFWorkflowName</key>
+	<string>TapTrack Expense Logger</string>
+	<key>WFWorkflowIcon</key>
+	<dict>
+		<key>WFWorkflowIconGlyphNumber</key><integer>546</integer>
+		<key>WFWorkflowIconStartColor</key><integer>3</integer>
+	</dict>
+</dict>
+</plist>
