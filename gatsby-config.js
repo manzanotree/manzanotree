@@ -5,6 +5,9 @@ module.exports = {
     siteUrl: `https://www.manzanotree.com`
   },
   plugins: [
+    `gatsby-plugin-image`,
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
     `gatsby-plugin-mdx`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -52,8 +55,5 @@ module.exports = {
         crossOrigin: `use-credentials`,
       },
     },
-    `gatsby-plugin-image`,
-    `gatsby-plugin-sharp`,
-    `gatsby-transformer-sharp`,
   ]
 };
