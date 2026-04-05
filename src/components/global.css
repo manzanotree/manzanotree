@@ -9,3 +9,13 @@ html, body, #___gatsby, #gatsby-focus-wrapper, #gatsby-focus-wrapper > div {
 a:link, a:visited, a:hover, a:active {
  text-decoration: none;
 }
+
+.subtle-link,
+.subtle-link:visited {
+  text-decoration: underline;
+  color: black;
+}
+
+.subtle-link:hover {
+  color: #0077cc;
+}
